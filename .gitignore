@@ -1,0 +1,28 @@
+# Secrets
+settings.toml
+.env
+
+# Dataset
+data/
+
+# CircuitPython boardfiles
+boot_out.txt
+*.mpy
+
+# Filesystem junk from the CIRCUITPY drive
+.DS_Store
+._*
+.fseventsd/
+.Trashes/
+.Trash-*/
+.Spotlight-V100/
+.metadata_never_index
+Thumbs.db
+desktop.ini
+System Volume Information/
+
+#Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
