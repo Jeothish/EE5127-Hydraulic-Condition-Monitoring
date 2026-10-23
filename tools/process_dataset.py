@@ -24,7 +24,6 @@ replay=[]
 
 for target_class, num_samples in PER_CLASS.items():
     class_indices = [idx for idx in test if cooler[idx] == target_class]
-    print(class_indices)
     sampled_indices = board_seed.sample(class_indices,num_samples)
     replay.extend(sampled_indices)
     
